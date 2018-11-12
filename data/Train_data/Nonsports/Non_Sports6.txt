@@ -1,0 +1,14 @@
+Sometimes, when we are too focused on learning about the technical implementations of Machine Learning we tend to ignore important issues of this technology like its future applications and political consequences. In this post, instead of discussing what language to use or what algorithm works best for a problem, we have gathered a set of videos from the highly popular nonprofit organization, TED.
+
+In this series of videos, you will find interesting discussions and conferences about AI and Machine Learning from a "big picture" perspective. You will hear about the different positions regarding the upcoming developments in the field, its implications, advantages, and consequences on a world-wide scale. Topics range from the politics and technological responsibilities of AI; its impact on the future job market, and even about the its role in art.
+
+I hope you enjoy watching these talks as much as I did
+
+What happens when our computers get smarter than we are?, Nick Bostrom, 3.1M views. @FHIOxford.
+Artificial intelligence is getting smarter by leaps and bounds -- within this century, research suggests, a computer AI could be as "smart" as a human being. A philosopher and technologist, Bostrom asks us to think hard about the world we're building right now, driven by thinking machines. Will our smart machines help to preserve humanity and our values -- or will they have values of their own?
+Can we build AI without losing control over it?, Sam Harris, 3.0M views, @SamHarrisOrg.
+Scared of super intelligent AI? You should be, says neuroscientist and philosopher Sam Harris -- and not just in some theoretical way. We're going to build superhuman machines, says Harris, but we haven't yet grappled with the problems associated with creating something that may treat us the way we treat ants.
+The jobs we'll lose to machines - and the ones we won't, Anthony Goldbloom, 2.1M views,  @antgoldbloom.
+Machine learning isn't just for simple tasks like assessing credit risk and sorting mail anymore -- today, it's capable of far more complex applications, like grading essays and diagnosing diseases. With these advances comes an uneasy question: Will a robot do your job in the future.
+We're Building a Dystopia Just to Make People Click on Ads, Zeynep Tufekci, 1.7M views, @zeynep.
+In an eye-opening talk, she details how the same algorithms companies like Facebook, Google and Amazon use to get you to click on ads are also used to organize your access to political and social information. And the machines aren't even the real threat. What we need to understand is how the powerful might use AI to control us -- and what we can do in response.

@@ -1,0 +1,24 @@
+Docker is a tool that simplifies the installation process for software engineers. Coming from a statistics background I used to care very little about how to install software and would occasionally spend a few days trying to resolve system configuration issues. Enter the god-send Docker almighty.
+
+Think of Docker as a light virtual machine (I apologise to the Docker gurus for using that term). Generally someone writes a *Dockerfile* that builds a *Docker Image* which contains most of the tools and libraries that you need for a project. You can use this as a base and add any other dependencies that are required for your project. Its underlying philosophy is that if it works on my machine it will work on yours.
+
+What’s in it for Data Scientists?
+
+Time: The amount of time that you save on not installing packages in itself makes this framework worth it.
+Reproducible Research: I think of Docker as akin to setting the random number seed in a report. The same dependencies and versions of libraries that was used in your machine are used on the other person’s machine. This makes sure that the analysis that you are generating will run on any other analysts machine.
+Distribution: Not only are you distributing your code, but you are also distributing the environment in which that code was run.
+How Does it Work?
+
+Docker employs the concept of (reusable) layers. So whatever line that you write inside the Dockerfile is considered a layer. For example you would usually start with:
+
+FROM ubuntu
+RUN apt-get install python3
+ 
+
+This Dockerfile would install python3 (as a layer) on top of the Ubuntu layer.
+
+What you essentially do is for each project you write all the apt-get install, pip install etc. commands into your Dockerfile instead of executing it locally.
+
+I recommend reading the tutorial on https://docs.docker.com/get-started/ to get started on Docker. The learning curve is minimal (2 days work at most) and the gains are enormous.
+
+Dockerhub

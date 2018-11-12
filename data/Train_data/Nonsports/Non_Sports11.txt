@@ -1,0 +1,16 @@
+Reflecting on this experience, I realized that my frustration was rooted in my very little understanding of how real life data projects actually work. I was thrown into the wild west of raw data, far away from the comfortable land of pre-processed, tidy .csv files, and I felt unprepared and uncomfortable working in an environment where this is the norm.
+
+Many data scientists experienced a similar journey early on in their careers, and the best ones understood quickly this reality and the challenges associated with it. I myself also adapted to this new reality, albeit slowly and gradually. Over time, I discovered the concept of instrumentation, hustled with machine-generated logs, parsed many URLs and timestamps, and most importantly, learned SQL (Yes, in case you were wondering, my only exposure to SQL prior to my first job was Jennifer Widom’s awesome MOOC here).
+
+Nowadays, I understand counting carefully and intelligently is what analytics is largely about, and this type of foundational work is especially important when we live in a world filled with constant buzzwords and hypes.
+
+ 
+
+The Hierarchy of Analytics
+ 
+Among the many advocates who pointed out the discrepancy between the grinding aspect of data science and the rosier depictions that media sometimes portrayed, I especially enjoyed Monica Rogati’s call out, in which she warned against companies who are eager to adopt AI:
+
+Think of Artificial Intelligence as the top of a pyramid of needs. Yes, self-actualization (AI) is great, but you first need food, water, and shelter (data literacy, collection, and infrastructure).
+
+This framework puts things into perspective. Before a company can optimize the business more efficiently or build data products more intelligently, layers of foundational work need to be built first. This process is analogous to the journey that a man must take care of survival necessities like food or water before he can eventually self-actualize. This rule implies that companies should hire data talents according to the order of needs. One of the recipes for disaster is for startups to hire its first data contributor as someone who only specialized in modeling but have little or no experience in building the foundational layers that is the pre-requisite of everything else (I called this “The Hiring Out-of-Order Problem”).
+

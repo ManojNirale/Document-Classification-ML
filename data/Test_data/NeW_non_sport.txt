@@ -1,0 +1,21 @@
+CTV to have analytics capabilities In the domains of E—mail
+Data analysis, Live Memory Analysis, Cloud Data analysis, Network
+analysis while ensuring the data is forensicaily secure
+
+CTV should be able to hold the processed Information from
+54 Lake raw data DL_CR_1 both structured, unstructured and semi structured data
+
+
+m q CTV should have ability to Ingest larSe bloc“ of data from
+
+various Social Media platforms/Social Media Monitoring Tools
+(SSM) combined wlth other corporate data sources and targets
+on a real time basis to provide an intuitive and fast approach
+for Ingestion. The data from Social Media should be based on
+entities of interest and retain the context such that CBI can
+
+Data leverage this kind of facility for searching a suspect or ?nd out
+47 Lake Data Ingestion DL_DI_22 the behaviour of a suspect/witness
+Data CI'V should have ability to get the information from social
+48 Lake Data ingestion DL_DI_23 media for a particular person or entity
+Data Capable to perform data discovery from social media for

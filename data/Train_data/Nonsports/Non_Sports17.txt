@@ -1,0 +1,25 @@
+3 — Symmetrically Connected Networks
+
+These are like recurrent networks, but the connections between units are symmetrical (they have the same weight in both directions). Symmetric networks are much easier to analyze than recurrent networks. They are also more restricted in what they can do because they obey an energy function. Symmetrically connected nets without hidden units are called “Hopfield Nets.” Symmetrically connected network with hidden units are called “Boltzmann machines.”
+
+ 
+
+1 — Perceptrons
+ 
+Considered the first generation of neural networks, perceptrons are simply computational models of a single neuron. They were popularized by Frank Rosenblatt in the early 1960s. They appeared to have a very powerful learning algorithm and lots of grand claims were made for what they could learn to do. In 1969, Minsky and Papers published a book called “Perceptrons” that analyzed what they could do and showed their limitations. Many people thought these limitations applied to all neural network models. However, the perceptron learning procedure is still widely used today for tasks with enormous feature vectors that contain many millions of features.
+
+
+
+In the standard paradigm for statistical pattern recognition, we first convert the raw input vector into a vector of feature activations. We then use hand-written programs based on common-sense to define the features. Next, we learn how to weight each of the feature activations to get a single scalar quantity. If this quantity is above some threshold, we decide that the input vector is a positive example of the target class.
+
+The standard Perceptron architecture follows the feed-forward model, meaning inputs are sent into the neuron, are processed, and result in an output. In the diagram below, this means the network reads bottom-up: input comes in from the bottom and output goes out from the top.
+
+
+
+However, Perceptrons do have limitations: If you are followed to choose the features by hand and if you use enough features, you can do almost anything. For binary input vectors, we can have a separate feature unit for each of the exponentially many binary vectors and so we can make any possible discrimination on binary input vectors. But once the hand-coded features have been determined, there are very strong limitations on what a perceptron can learn.
+
+This result is devastating for Perceptrons because the whole point of pattern recognition is to recognize patterns despite transformations like translation. Minsky and Papert’s “Group Invariance Theorem” says that the part of a Perceptron that learns cannot learn to do this if the transformations form a group. To deal with such transformations, a Perceptron needs to use multiple feature units to recognize transformations of informative sub-patterns. So the tricky part of pattern recognition must be solved by the hand-coded feature detectors, not the learning procedure.
+
+Networks without hidden units are very limited in the input-output mappings they can learn to model. More layers of linear units do not help. It’s still linear. Fixed output non-linearities are not enough. Thus, we need multiple layers of adaptive, non-linear hidden units. But how we train such nets? We need an efficient way of adapting all the weights, not just the last layer. This is hard. Learning the weights going into hidden units is equivalent to learning features. This is difficult because nobody is telling us directly what the hidden units should do.
+
+ 

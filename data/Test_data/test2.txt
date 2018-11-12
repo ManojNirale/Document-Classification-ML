@@ -1,0 +1,25 @@
+FA_CT_Z CTV should have capability to support cases in which the
+interests of the Central Government or of any public sector
+Fraud g project or undertaking, or any statutory corporation or body
+58 Analytics Case Type set up and financed by the Government of India are involved.
+FA_CT_3 CTV should have capability to support cases relating to
+breaches of Central Laws with the enforcement of which the
+Fraud Government of India is particularly concerned such as
+
+59 Analytics Case Type
+
+Fraud FA_CT_4 Breaches of Import and Export Control Orders.
+
+60 Analytics Case Type
+
+Fraud FA_CT_S Serious breaches of Foreign Exchange Regulation Act.
+
+61 Analytics Case Type
+Fraud FA_CT_6 Passport frauds.
+62 Analytics Case Type
+
+FA_CT_7 Cases of certain speci?ed categories under the Defence of India
+Fraud Act or Rules with which the Central Government Is particularly
+
+63 Analytics Case Type concerned.
+64 Fraud Case Type FA_CT_B Money Laundering

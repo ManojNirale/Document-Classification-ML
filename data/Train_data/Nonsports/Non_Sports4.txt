@@ -1,0 +1,17 @@
+The main purpose of data transformation and feature extraction is to enhance the data in such a way that it increases the likelihood that the classification algorithm will be able to make meaningful predictions. Unlike the steps taken during cleaning, which are designed to address problems with the raw data (missing and erroneous values, formatting issues etc.), these steps change the values and/or structure of the data (data transformation) and add additional features (feature extraction).
+
+As you might imagine, this is quite an open-ended process, and hence a lot of the value that data scientists provide comes in these steps. There is no textbook or walkthrough that can tell you exactly what steps you should take for a given dataset, that knowledge can come only from experience, curiosity and trial and error. However, we can take a look at some common methods to provide a sense of what is possible. Please keep in mind this is not an exhaustive list of options.
+
+Data Transformation
+ 
+Covering steps taken to modify the data, data transformation is undertaken with the intention to enhance the ability of the classification algorithm to extract information from the data. Below are a few common data transformation methods used.
+
+Bucketing/Binning
+
+A common method for manipulating numeric data, binning or bucketing is when the numerical values in a particular column are converted from a continuous series into fixed ranges. For example, instead of using the age value of all our users, we could place them into buckets such as 15-20 years old, 21-25 years old and so on.
+
+Typically this technique is used to manage ‘noisy data’. To understand what this means, think of the movements of the stock market over time: it goes up and down on an almost daily basis. However, if you are trying to predict the overall direction of the stock market over the next 6 months, these daily movements become kind of irrelevant – what you really want your model to focus on are the movements over longer periods of time. What is more, the essentially random daily movements in stock prices may actually confuse your prediction model – causing less accurate predictions. In this example, the daily movements are the noise and what you want to extract (the longer term direction of the market) is ‘the signal’.
+
+The same logic can be applied to any numerical field in your dataset. If you are concerned that small changes in a given value may simply be representing random ‘noise’, you may want to consider bucketing/binning to remove that noise.
+
+Normalization

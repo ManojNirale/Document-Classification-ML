@@ -1,0 +1,18 @@
+Neural networks are a class of models within the general machine learning literature. So for example, if you took a Coursera course on machine learning, neural networks will likely be covered. Neural networks are a specific set of algorithms that has revolutionized the field of machine learning. They are inspired by biological neural networks and the current so called deep neural networks have proven to work quite very well. Neural Networks are themselves general function approximations, that is why they can be applied to literally almost any machine learning problem where the problem is about learning a complex mapping from the input to the output space.
+
+Here are the 3 reasons to convince you to study neural computation:
+
+To understand how the brain actually works: It’s very big and very complicated and made of stuff that dies when you poke it around. So we need to use computer simulations.
+To understand a style of parallel computation inspired by neurons and their adaptive connections: It’s a very different style from a sequential computation.
+To solve practical problems by using novel learning algorithms inspired by the brain: Learning algorithms can be very useful even if they are not how the brain actually works.
+After finishing the famous Andrew Ng’s Machine Learning Coursera course, I started developing interest towards neural networks and deep learning. Thus, I started looking at the best online resources to learn about the topics and found Geoffrey Hinton’s Neural Networks for Machine Learning course. If you are a deep learning practitioner or someone who want to get into the deep learning/machine learning world, you should really take this course. Geoffrey Hinton is without a doubt a godfather of the deep learning world. And he actually provided something extraordinary in this course. In this blog post, I want to share the 8 neural network architectures from the course that I believe any machine learning researchers should be familiar with to advance their work.
+
+
+
+Generally, these architectures can be put into 3 specific categories:
+
+1 — Feed-Forward Neural Networks
+
+These are the commonest type of neural network in practical applications. The first layer is the input and the last layer is the output. If there is more than one hidden layer, we call them “deep” neural networks. They compute a series of transformations that change the similarities between cases. The activities of the neurons in each layer are a non-linear function of the activities in the layer below.
+
+2 — Recurrent Networks

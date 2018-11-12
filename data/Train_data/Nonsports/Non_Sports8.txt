@@ -1,0 +1,7 @@
+The more experienced I become as a data scientist, the more convinced I am that data engineering is one of the most critical and foundational skills in any data scientist’s toolkit. I find this to be true for both evaluating project or job opportunities and scaling one’s work on the job.
+
+In an earlier post, I pointed out that a data scientist’s capability to convert data into value is largely correlated with the stage of her company’s data infrastructure as well as how mature its data warehouse is. This means that a data scientist should know enough about data engineering to carefully evaluate how her skills are aligned with the stage and need of the company. Furthermore, many of the great data scientists I know are not only strong in data science but are also strategic in leveraging data engineering as an adjacent discipline to take on larger and more ambitious projects that are otherwise not reachable.
+
+Despite its importance, education in data engineering has been limited. Given its nascency, in many ways the only feasible path to get training in data engineering is to learn on the job, and it can sometimes be too late. I am very fortunate to have worked with data engineers who patiently taught me this subject, but not everyone has the same opportunity. As a result, I have written up this beginner’s guide to summarize what I learned to help bridge the gap.
+
+ 

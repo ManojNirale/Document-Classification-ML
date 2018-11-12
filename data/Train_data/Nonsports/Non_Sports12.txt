@@ -1,0 +1,19 @@
+Unfortunately, many companies do not realize that most of our existing data science training programs, academic or professional, tend to focus on the top of the pyramid knowledge. Even for modern courses that encourage students to scrape, prepare, or access raw data through public APIs, most of them do not teach students how to properly design table schemas or build data pipelines. As a result, some of the critical elements of real-life data science projects were lost in translation.
+
+Luckily, just like how software engineering as a profession distinguishes front-end engineering, back-end engineering, and site reliability engineering, I predict that our field will be the same as it becomes more mature. The composition of talent will become more specialized over time, and those who have the skill and experience to build the foundations for data-intensive applications will be on the rise.
+
+What does this future landscape mean for data scientists? I would not go as far as arguing that every data scientist needs to become an expert in data engineering. However, I do think that every data scientist should know enough of the basics to evaluate project and job opportunities in order to maximize talent-problem fit. If you find that many of the problems that you are interested in solving require more data engineering skills, then it is never too late then to invest more in learning data engineering. This is in fact the approach that I have taken at Airbnb.
+
+ 
+
+Building Data Foundations & Warehouses
+ 
+Regardless of your purpose or interest level in learning data engineering, it is important to know exactly what data engineering is about. Maxime Beauchemin, the original author of Airflow, characterized data engineering in his fantastic post The Rise of Data Engineer:
+
+Data engineering field could be thought of as a superset of business intelligenceand data warehousing that brings more elements from software engineering. This discipline also integrates specialization around the operation of so called “big data” distributed systems, along with concepts around the extended Hadoop ecosystem, stream processing, and in computation at scale.
+
+Among the many valuable things that data engineers do, one of their highly sought-after skills is the ability to design, build, and maintain data warehouses. Just like a retail warehouse is where consumable goods are packaged and sold, a data warehouse is a place where raw data is transformed and stored in query-able forms.
+
+
+Source: Jeff Hammerbacher’s slide from UC Berkeley CS 194 course
+In many ways, data warehouses are both the engine and the fuels that enable higher level analytics, be it business intelligence, online experimentation, or machine learning. Below are a few specific examples that highlight the role of data warehousing for different companies in various stages:

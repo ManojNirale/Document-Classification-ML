@@ -1,0 +1,20 @@
+By James Le, Freelance Full Stack Web Developer
+
+Header image
+
+Why do we need Machine Learning?
+
+Machine learning is needed for tasks that are too complex for humans to code directly. Some tasks are so complex that it is impractical, if not impossible, for humans to work out all of the nuances and code for them explicitly. So instead, we provide a large amount of data to a machine learning algorithm and let the algorithm work it out by exploring that data and searching for a model that will achieve what the programmers have set it out to achieve.
+
+Let’s look at these 2 examples:
+
+It is very hard to write programs that solve problems like recognizing a 3-dimensional object from a novel viewpoint in new lighting conditions in a cluttered scene. We don’t know what program to write because we don’t know how it’s done in our brain. Even if we had a good idea about how to do it, the program might be horrendously complicated.
+It is hard to write a program to compute the probability that a credit card transaction is fraudulent. There may not be any rules that are both simple and reliable. We need to combine a very large number of weak rules. Fraud is a moving target but the program needs to keep changing.
+Then comes the Machine Learning Approach: Instead of writing a program by hand for each specific task, we collect lots of examples that specify the correct output for a given input. A machine learning algorithm then takes these examples and produces a program that does the job. The program produced by the learning algorithm may look very different from a typical hand-written program. It may contain millions of numbers. If we do it right, the program works for new cases as well as the ones we trained it on. If the data changes the program can change too by training on the new data. You should note that massive amounts of computation are now cheaper than paying someone to write a task-specific program.
+
+Given that, some examples of tasks best solved by machine learning include:
+
+Recognizing patterns: Objects in real scenes, Facial identities or facial expressions, Spoken words
+Recognizing anomalies: Unusual sequences of credit card transactions, Unusual patterns of sensor readings in a nuclear power plant
+Prediction: Future stock prices or currency exchange rates, Which movies will a person like
+What are Neural Networks?

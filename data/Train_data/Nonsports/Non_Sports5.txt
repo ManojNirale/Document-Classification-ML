@@ -1,0 +1,21 @@
+Although normalization can take on a large number of meanings depending on the context, the type of normalization being referred to here is the statistical type – converting the values of a column into a ‘normalized’ range. This could be translating heights from centimeter values anywhere from 100cm to 220cm to a scale where 0 represents the average (mean) height for your dataset and -1/+1 represent one standard deviation from that average. It could be translating those heights into a range of values from 0 to 1, where 0 is the lowest value in your dataset and 1 is the maximum value. There is a number of other methods that can be used here as well.
+
+This type of transformation is more important for certain types of algorithms than others. For some algorithms – like the one we will be using – this type of transformation is not typically necessary. But for other algorithms, the magnitude of the values in each column will impact the calculations. In these cases, it is optimal to convert (‘normalize’) the values in each column onto the same scale to ensure each column is treated the equally. For a more detailed explanation on this subject, this answer from Quora is a good place to start.
+
+Other Mathematical Transformations
+
+In a similar manner to normalization, there is an almost unlimited number of ways that the numerical values of a given column can be transformed such that they are more suitable for the algorithm being used.
+
+To provide one example, arguably the most common transformation (other than normalization) is to use a logarithm function. This transformation is a commonly used method of dealing with exponential data series (i.e. a column where there a lot of low values and relatively few high values). For those wanting to understand this transformation better, the Wikipedia page on this topic has a great illustrated example.
+
+As I am hemorrhaging readers at this point, I won’t go into detail on the various other transformations possible – the key point is to be aware that there is a large range of possibilities here depending on your needs.
+
+One Hot Encoding
+ 
+Looking at one more example, and the most relevant one for our Kaggle competition, this transformation is one used for categorical data. What this transformation does is take one column with x categories (x must be greater than 2 for this to make sense) and convert it into x columns where each column represents one category in the original column. An illustrated example is shown below:
+
+data transformation
+
+For those familiar with regression modeling, you may recognize this as the same process of creating dummy variables.
+
+Again there are a few reasons for doing this type of transformation. Some algorithms are structured in such a way that they do not handle categorical data very well – particularly when the categories do not have an inherent order (this answer on Stack Overflow does a good job of explaining why). Some other types of algorithms require numerical data to function. The only way to work out whether this transformation will be beneficial is to either read through the documentation for the algorithm you are using or to test it yourself.

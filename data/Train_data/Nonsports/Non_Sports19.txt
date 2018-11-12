@@ -1,0 +1,15 @@
+Convolutional Neural Networks can be used for all work related to object recognition from hand-written digits to 3D objects. However, recognizing real objects in color photographs downloaded from the web is much more complicated than recognizing hand-written digits. There are hundred times as many classes (1000 vs 10), hundred times as many pixels (256 x 256 color vs 28 x 28 gray), two-dimensional images of three-dimensional scenes, cluttered scenes requiring segmentation, and multiple objects in each image. Will the same type of convolutional neural network work?
+
+Then came the ILSVRC-2012 competition on ImageNet, a dataset with approximately 1.2 million high-resolution training images. Test images will be presented with no initial annotation (no segmentation or labels) and algorithms will have to produce labelings specifying what objects are present in the images. Some of the best existing computer vision methods were tried on this dataset by leading computer vision groups from Oxford, INRIA, XRCE… Typically, computer vision systems use complicated multi-stage systems and the early stages are typically hand-tuned by optimizing a few parameters.
+
+
+
+The winner of the competition, Alex Krizhevsky (NIPS 2012), developed a very deep convolutional neural net of the type pioneered by Yann LeCun. Its architecture includes 7 hidden layers not counting some max-pooling layers. The early layers were convolutional, while the last 2 layers were globally connected. The activation functions were rectified linear units in every hidden layer. These train much faster and are more expressive than logistic units. In addition to that, it also uses competitive normalization to suppress hidden activities when nearby units have stronger activities. This helps with variations in intensity.
+
+There are a couple of technical tricks that significantly improve generalization for the neural net:
+
+Training on random 224 x 224 patches from the 256 x 256 images to get more data and using left-right reflections of the images. At test time, combining the opinions from 10 different patches: The four 224 x 224 corner patches plus the central 224 x 224 patch plus the reflections of those 5 patches.
+Using “dropout” to regularize the weights in the globally connected layers (which contain most of the parameters). Dropout means that half of the hidden units in a layer are randomly removed for each training example. This stops hidden units from relying too much on other hidden units.
+
+
+In terms of hardware requirement, Alex uses a very efficient implementation of convolutional nets on 2 Nvidia GTX 580 GPUs (over 1000 fast little cores). The GPUs are very good for matrix-matrix multiplies and also have very high bandwidth to memory. This allows him to train the network in a week and makes it quick to combine results from 10 patches at test time. We can spread a network over many cores if we can communicate the states fast enough. As cores get cheaper and datasets get bigger, big neural nets will improve faster than old-fashioned computer vision systems.

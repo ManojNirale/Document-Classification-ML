@@ -1,0 +1,6 @@
+Organization of This Beginner’s Guide
+ 
+The scope of my discussion will not be exhaustive in any way, and is designed heavily around Airflow, batch data processing, and SQL-like languages. That said, this focus should not prevent the reader from getting a basic understanding of data engineering and hopefully it will pique your interest to learn more about this fast-growing, emerging field.
+
+Part I (this post) is designed to be a high-level introductory post. Using a combination of personal anecdotes and expert insights, I will contextualize what data engineering is, why it is challenging, and how it can help you or your organization to scale. The primary audience of this post is for aspiring data scientists who need to learn the basics to evaluate job opportunities or early-stage founders who are about to build the company’s first data team.
+Part II is more technical in nature. This post will focus on Airflow, Airbnb’s open-sourced tool for programmatically author, schedule, and monitor workflows. Specifically, I will demonstrate how to write a Hive batch job in Airflow, how to design table schemas using techniques such as star schema, and finally highlight some best practices around building ETLs. This post is suitable for starting data scientists and starting data engineers who are trying to hone their data engineering skills.

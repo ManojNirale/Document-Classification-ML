@@ -1,0 +1,10 @@
+Part III will be the final post of this series, where I will describe advanced data engineering patterns, higher level abstractions, and extended frameworks that would make building ETLs a lot easier and more efficient. A lot of these patterns are taught to me by Airbnb’s experienced data engineers who learned the hard way. I find these insights particularly useful for seasoned data scientists and seasoned data engineers who are trying to further optimize their workflows.
+Given that I am now a huge proponent for learning data engineering as an adjacent discipline, you might find it surprising that I had the completely opposite opinion a few years ago — I struggled a lot with data engineering during my first job, both motivationally and emotionally.
+
+ 
+
+My First Industry Job out of Graduate School
+ 
+Right after graduate school, I was hired as the first data scientist at a small startup affiliated with the Washington Post. With endless aspirations, I was convinced that I will be given analysis-ready data to tackle the most pressing business problems using the most sophisticated techniques.
+
+Shortly after I started my job, I learned that my primary responsibility was not quite as glamorous as I imagined. Instead, my job was much more foundational — to maintain critical pipelines to track how many users visited our site, how much time each reader spent reading contents, and how often people liked or retweeted articles. It was certainly important work, as we delivered readership insights to our affiliated publishers in exchange for high-quality contents for free.

@@ -1,0 +1,19 @@
+2 — Convolutional Neural Networks
+ 
+Machine Learning research has focused extensively on object detection problems over the time. There are various things that make it hard to recognize objects:
+
+Segmentation: Real scenes are cluttered with other objects. It’s hard to tell which pieces go together as parts of the same object. Parts of an object can be hidden behind other objects.
+Lighting: The intensities of the pixels are determined as much by the lighting as by the objects.
+Deformation: Objects can deform in a variety of non-affine ways. E.g., a handwritten too can have a large loop or just a cusp.
+Affordances: Object classes are often defined by how they are used. E.g., chairs are things designed for sitting on so they have a wide variety of physical shapes.
+Viewpoint: Changes in viewpoint cause changes in images that standard learning methods cannot cope with. Information hops between input dimensions (i.e. pixels)
+Imagine a medical database in which the age of a patient sometimes hopes to the input dimension that normally codes for weight! To apply machine learning we would first want to eliminate this dimension-hopping.
+
+
+The replicated feature approach is currently the dominant approach for neural networks to solve object detection problem. It uses many different copies of the same feature detector with different positions. It could also replicate across scale and orientation, which is tricky and expensive. Replication greatly reduces the number of free parameters to be learned. It uses several different feature types, each with its own map of replicated detectors. It also allows each patch of image to be represented in several ways.
+
+So what does replicating the feature detectors achieve?
+
+Equivalent activities: Replicated features do not make the neural activities invariant to translation. The activities of are equivariant.
+Invariant knowledge: If a feature is useful in some locations during training, detectors for that feature will be available in all locations during testing.
+In 1998, Yann LeCun and his collaborators developed a really good recognizer for handwritten digits called LeNet. It used back propagation in a feedforward net with many hidden layers, many maps of replicated units in each layer, pooling of the outputs of nearby replicated units, a wide net that can cope with several characters at once even if they overlap, and a clever way of training a complete system, not just a recognizer. Later it is formalized under the name convolutional neural networks. Fun fact: This net was used for reading ~10% of the checks in North America.
